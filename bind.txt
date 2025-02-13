@@ -1,0 +1,1 @@
+bind = $mainMod SHIFT, I, exec, ~/.config/hypr/scripts/ocr.sh

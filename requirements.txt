@@ -1,0 +1,4 @@
+Pillow
+pytesseract
+notify2
+dbus-python
