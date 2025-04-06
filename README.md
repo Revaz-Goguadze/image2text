@@ -15,15 +15,20 @@ This is a simple script designed for Hyprland (Wayland compositor) on Linux to e
 - `tesseract-ocr` installed
 - Clipboard utilities compatible with Wayland (e.g., `wl-clipboard`)
 
+## Configuration
+- change the path in ocr.sh of python script "main.py"
+- place ocr.sh in hypr/scripts folder 
+
 ## Usage
 
 1. Copy or screenshot an image into your clipboard.
 2. Trigger the script through your predefined Hyprland keybinding.
 3. The script runs OCR on the clipboard image.
-4. The resulting text is available back in your clipboard.
+4. The resulting text is available back in your clipboard. 
 
 ## Notes
 
 - Make sure Tesseract OCR is properly installed and added to your PATH.
 - Configure your `hyprland.conf` to bind a key combination for running the script for convenience.
 - Modify the script as needed for your setup.
+- May you need to change Path of scripts and Binds
